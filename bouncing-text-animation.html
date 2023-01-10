@@ -1,0 +1,28 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bouncing Text Animation</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./bouncing-text-animation.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="ball" data-splitting>
+      <div class="ball-top"></div>
+    </div>
+    
+    <div class="phrase" data-splitting="items">
+      <span class="word slide" data-splitting="chars">Fol</span>
+      <span class="word slide" data-splitting="chars">llow</span>
+      <span class="word slide" data-splitting="chars">Paka</span>
+      <span class="word smiley" data-splitting="chars">:)</span>
+    </div>
+
+    <script type="module" src="./bouncing-text-animation.js"></script>
+  </body>
+</html>
